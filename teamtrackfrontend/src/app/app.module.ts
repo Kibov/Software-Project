@@ -7,12 +7,16 @@ import { AppComponent } from './app.component';
 import { UserListComponent } from './user-list/user-list.component';
 import { UserFormComponent } from './user-form/user-form.component';
 import { UserService } from './user-service.service';
+import { UserLoginComponent } from './user-login/user-login.component';
+import { UserSignUpComponent } from './user-sign-up/user-sign-up.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UserListComponent,
-    UserFormComponent
+    UserFormComponent,
+    UserLoginComponent,
+    UserSignUpComponent
   ],
   imports: [
     BrowserModule,
