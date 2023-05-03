@@ -1,0 +1,7 @@
+
+<div class="projects-squares ">
+    <div class="test border col-2" *ngFor="let proj of projects" (click)="elementSelected(proj)">
+        <h6>Project name: {{proj.name}}</h6>
+        <span> {{proj.description}}</span>
+    </div>
+</div>

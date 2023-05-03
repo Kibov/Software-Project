@@ -1,0 +1,6 @@
+.test{
+    display: inline-flex;
+    margin: 1rem;
+    min-height: 5rem;
+    flex-direction: column;
+}

@@ -1,0 +1,25 @@
+.project-name{
+    background-color: #0026ff;
+    border: 1px solid #00137c;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.border{
+    border: 1px solid #3b3b3b;
+}
+
+.description{
+}
+
+.time-display{
+}
+
+.comments{
+}
+
+.no-margin{
+    margin: 0px;
+}
