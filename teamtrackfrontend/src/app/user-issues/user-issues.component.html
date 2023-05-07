@@ -1,0 +1,16 @@
+<h1 class="issuesHeader">Issues</h1>
+
+<div class="row text-center">
+  <div class="col-md-12">
+    <app-user-comments-list
+      (commentWasSelected)="selectedComment = $event"
+    ></app-user-comments-list>
+  </div>
+  <div class="col-md-7" style="margin-top: 20px">
+    <app-user-adding-comments
+      *ngIf="selectedComment; else infoText"
+      [comment]="selectedComment"
+    ></app-user-adding-comments>
+    <ng-template #infoText>No comment selected!</ng-template>
+  </div>
+</div>
